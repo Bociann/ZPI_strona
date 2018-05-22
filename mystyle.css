@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.btn {
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f52020;
+  padding: 40px 40px 40px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #db7070;
+  text-decoration: none;
+}

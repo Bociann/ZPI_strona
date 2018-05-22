@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Strona Głowna</title>
+		<link rel="stylesheet" type="text/css" href="mystyleTEST.css">
+		<script type="myJavaScriptTEST.js"></script>
+	</head>
+	<body>
+		<button onclick="document.getElementById('id01').style.display='block'">Zaloguj</button>
+
+		<div id='id01' class="modal">
+
+			<form class="modal-content animate" action="/action_page.php">
+				<div class="imgcontainer">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Zamknij">&times;</span>
+					<img src="bit_logowanie.jpg" alt="Logowanie" class="avatar">
+				</div>
+				<div class="imgcontainer" style="text-align: left;">
+					<label for="UserName"><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="UserName" required>
+
+					<label for = "passW"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="passW" required>
+
+					<button type="submit" class="btn">Login</button>
+					<label>
+						<input type="checkbox" checked="checked" name="remember">Zapamiętaj mnie
+					</label>
+				</div>
+
+			</form>
+	</body>
+</html>
